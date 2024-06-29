@@ -17,3 +17,9 @@
   color: #61dafb;
 }
 
+.tokenFieldRow{
+  width: 440px;
+  margin: 0 auto;
+  background-color:white;
+  color:rgb(95, 106, 106);
+}
