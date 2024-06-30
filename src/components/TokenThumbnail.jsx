@@ -19,6 +19,8 @@ const TokenThumbnail = ({ contractAddress }) => {
         fetchTokenData();
     }, [contractAddress]);
 
+    if (error) return <p>Error fetching token data: {error.message}</p>;
+
     return (
         <img src={thumbnailUrl} alt="Token Thumbnail" />
     );
