@@ -69,7 +69,7 @@ function App() {
 
     }
     onLoad()
-  }, [])
+  }, [walletAddress])
 
   return (
     <div className="App">
