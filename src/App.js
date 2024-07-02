@@ -77,7 +77,7 @@ function App() {
         <p>
          Welcome, { walletAddress?.substring(0,10) }...
          </p>
-         <div>
+         <div className='tokens-list-container'>
           <TokenField 
               contractAddress={WETH_COINGECKO_ADDRESS}
               tokenName="WETH"

@@ -18,8 +18,17 @@
 }
 
 .tokenFieldRow{
-  width: 440px;
+  max-width: 440px;
   margin: 0 auto;
   background-color:white;
   color:rgb(95, 106, 106);
+  border-bottom: 1px solid black;
+}
+
+.tokens-list-container{
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  padding: 20px;
+  background-color:white;
 }
